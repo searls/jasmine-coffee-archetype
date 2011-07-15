@@ -29,6 +29,8 @@ To develop code, you'll want to run your specs in a browser and refresh as you g
 
     mvn jasmine:bdd
 
+And then visit [localhost:8234](http://localhost:8234)
+
 Running the web app
 -------------------
 
