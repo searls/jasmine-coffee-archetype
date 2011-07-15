@@ -1,0 +1,1 @@
+window.hello = "Hello There, ";

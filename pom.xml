@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.searls</groupId>
+  <artifactId>jasmine-coffee-archetype</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Jasmine Coffee Archetype</name>
+  <description>Jasmine Specs, CoffeeScript support, JSHint baked into the build, builds a ZIP artifact for static HTML/JS/CSS deployments</description>
+  <url>http://github.com/searls/jasmine-coffee-archetype</url>
+
+  <distributionManagement>
+    <repository>
+      <id>local-nexus</id>
+      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>local-nexus</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>
